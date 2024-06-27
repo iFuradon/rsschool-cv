@@ -1,2 +1,2 @@
 # rsschool-cv
-This repository is for completing RS School tasks
+[cv](https://iFuradon.github.io/rsschool-cv/cv)
