@@ -1,4 +1,5 @@
 # Igor Kozlovsky  
+![Avatar](ya.jpg)
 
 ## Contact Information:  
    - Location: Saratov
