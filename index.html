@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/ya.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-vbnet.min.js"></script>
+    </head>
+<body>
+    <header class = "header">
+        <h1>Igor Kozlovsky</h1>
+        <div>
+            <img src="./assets/img/ya.jpg" alt="my avatar">
+        </div>
+     </header>
+    <main class = "main">
+        <h2>Contact Information:</h2>
+        <ul>
+            <li>Location: Saratov</li>
+            <li>Phone:    +31-68-610-3041</li>
+            <li>E-mail:   iFuradon@gmail.com</li>
+        </ul>
+        <h2>About Me:</h2>
+        <p>I am a dedicated and experienced freelancer with a strong background in various programming languages and operating systems. I have a knack for automating complex processes and creating efficient solutions. My goal is to leverage my skills to solve challenging problems and contribute to the success of the projects I work on.</p>
+        <h2>Skills:</h2>
+        <ul>
+            <li>Programming languages: C, C++, VB, VBA, Python, Windows Power Shell, Bash shell, SQL, FoxPro, FORTRAN</li>
+            <li>Operating systems: Windows, Linux Ubuntu, Debian</li>
+            <li>System administration of LAN(WAN)</li>
+            <li>Advanced user of MS Office at the level of automation, statistical data processing (descriptive statistics, modeling including nonlinear)</li>
+        </ul>
+        <h2>Code Samples:</h2>
+        <h3>Problem Statement:</h3>
+        <p>Consider the function f(x)=Sqrt(1+x)−1 at x=1e−15 . This function involves the subtraction of a pair of similar numbers when x is near 0 and the results are significantly erroneous in this region. Using pow instead of sqrt doesn’t give better results. A “good” answer is 4.99999999999999875...∗1e−16 . The task is to modify f(x) to give a good approximation of f(x) in the neighborhood of 0.</p>
+        <h3>Solution:</h3>
+        <pre><code class="language-vbnet">
+            Imports System
+            Public Module ApproxFloat
+                Public Function f(ByVal x As Double) As Double
+                    ' use Taylor series
+                    Return x / 2 - x^2 / 8 + x^3/16
+                End Function
+            End Module
+            </code></pre>
+        <h2>Work Experience:</h2>
+        <p>Freelancer (1993 - present): Developed and automated complex Excel spreadsheets, integrated different software packages, conducted business data analysis, developed multi-user retail trade program, implemented an algorithm for automatic uninterrupted data archiving, created a method for remote monitoring of uninterruptible power supply sources, developed a way to provide remote access for employees to the organization’s server, conducted the transfer of servers of a small organization to a virtual environment.</p>
+        <h2>Education:</h2>
+        <p>Saratov State University, Faculty of “Radiophysics”, diploma with honors (1978 - 1983)</p>
+        <h2>English Language Skills:</h2>
+        <p>I can read technical texts in English.</p>
+    </main>
+    <footer class = "footer">
+        <p><a href="https://github.com/iFuradon">GitHub</a> | 2024 | <a href="https://rs.school"><img src="./assets/img/RS_Scool.jpg" alt="RS School" width="20"></a></p>
+    </footer>
+</body>
+</html>
